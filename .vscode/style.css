@@ -39,7 +39,8 @@ body * {
   color: var(--text-color);
 }
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   margin: auto;
   padding: 0 24px;
   /* alineamientos de padding y de margin siempre en sentido horario (teniendo dos parametros de medida ( padding: 56px auto;) el primer parametro se aplica a la parte superior e inferior y el segundo a los lados de la imagen; en caso de tener 3 medidas(padding: 56px auto 12px) se aplica la primera a la parte superior, la segunda a las laterales y la ultima a la inferior y con las cuatro medidas especificadas se respeta el orden en sentido horario*/
